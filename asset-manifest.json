@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jakub-webpage/static/css/main.0ad231d7.css",
+    "main.js": "/jakub-webpage/static/js/main.6df3ac92.js",
+    "static/media/weatherapp.jpg": "/jakub-webpage/static/media/weatherapp.002569d3b67e86d74b24.jpg",
+    "static/media/2048.jpg": "/jakub-webpage/static/media/2048.518148ac8ba0f0379c65.jpg",
+    "static/media/kanban.jpg": "/jakub-webpage/static/media/kanban.973d8dc59506e6c799b7.jpg",
+    "static/media/todo.jpg": "/jakub-webpage/static/media/todo.35e7a89ae5ec28ac38ea.jpg",
+    "static/media/jakub-budzinski.png": "/jakub-webpage/static/media/jakub-budzinski.b6310b5e0a91a7811bf3.png",
+    "index.html": "/jakub-webpage/index.html",
+    "main.0ad231d7.css.map": "/jakub-webpage/static/css/main.0ad231d7.css.map",
+    "main.6df3ac92.js.map": "/jakub-webpage/static/js/main.6df3ac92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ad231d7.css",
+    "static/js/main.6df3ac92.js"
+  ]
+}
