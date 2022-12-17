@@ -1,0 +1,27 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  margin-top: 40vh;
+}
+
+.about-header {
+  font-size: 3rem;
+  color: #66fcf1;
+  margin: 0;
+}
+
+.about-text {
+  width: 60%;
+  color: white;
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .about-text {
+    width: 100%;
+    color: white;
+    margin: 10px;
+  }
+}

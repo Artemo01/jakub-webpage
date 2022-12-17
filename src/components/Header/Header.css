@@ -1,0 +1,115 @@
+.header-wrapper {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+}
+
+.header-name {
+  margin: 0;
+  font-size: 5em;
+  color: #66fcf1;
+}
+
+.header-name:hover {
+  animation: drag 0.5s;
+}
+
+.header-text {
+  margin: 0;
+  font-size: 4em;
+  color: white;
+}
+
+.header-text:hover {
+  animation: drag 0.5s;
+}
+
+.header-button {
+  position: relative;
+  width: 230px;
+  height: 50px;
+  margin-top: 50px;
+  font-size: 1em;
+  background: none;
+  color: #66fcf1;
+  border-color: #66fcf1;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.header-button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #66fcf1;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.header-button:hover {
+  color: black;
+}
+
+.header-button:hover::before {
+  width: 100%;
+}
+
+@keyframes drag {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 5%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .header-wrapper {
+    padding-top: 50%;
+  }
+  .header-name {
+    font-size: 3em;
+  }
+
+  .header-text {
+    font-size: 2em;
+  }
+
+  .header-button {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .header-name {
+    font-size: 2em;
+  }
+
+  .header-button {
+    margin-top: 40px;
+    font-size: 0.8em;
+  }
+  .header-wrapper {
+    width: 70%;
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header-text {
+    font-size: 1.5em;
+  }
+}

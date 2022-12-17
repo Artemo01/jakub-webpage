@@ -1,0 +1,114 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  margin-top: 40vh;
+}
+
+.contact-header {
+  font-size: 3rem;
+  color: #66fcf1;
+  margin: 0;
+}
+
+.contact-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30vh;
+}
+
+.contact-form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+label {
+  color: #66fcf1;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+textarea {
+  height: 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  resize: vertical;
+}
+
+.contact-submit {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  right: 0;
+  margin-left: auto;
+  margin-top: 40px;
+  font-size: 1em;
+  background: none;
+  color: #66fcf1;
+  border-color: #66fcf1;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.contact-submit::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #66fcf1;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.contact-submit:hover {
+  color: black;
+}
+
+.contact-submit:hover::before {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+}
+
+@media screen and (max-width: 710px) {
+  .contact-form {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .contact-form {
+    width: 300px;
+  }
+
+  .contact-submit {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact-form {
+    width: 200px;
+  }
+
+  .contact-submit {
+    width: 200px;
+  }
+}

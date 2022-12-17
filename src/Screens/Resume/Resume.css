@@ -1,0 +1,155 @@
+.resume-wrapper {
+  width: 800px;
+  height: auto;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  z-index: -10;
+}
+
+.resume-left {
+  width: 280px;
+  background-color: #335384;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-main {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+}
+
+.resume-name {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: #335384;
+  font-size: 45px;
+}
+
+.resume-worksite {
+  margin-left: 65px;
+  font-size: 20px;
+  margin-top: 0px;
+  color: #78beff;
+}
+
+.resume-image {
+  width: 180px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.resume-container-left {
+  margin-top: 30px;
+  margin-left: 60px;
+  color: white;
+}
+
+.resume-header-left {
+  font-size: 15px;
+}
+
+.resume-container-main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-header-main {
+  font-size: 15px;
+  color: #78beff;
+}
+
+.resume-education-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-button {
+  padding: 10px;
+  background: none;
+  color: #66fcf1;
+  border-color: #66fcf1;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.resume-button:hover {
+  background-color: #66fcf1;
+  color: black;
+}
+
+.resume-back {
+  position: fixed;
+  width: 100px;
+  height: 40px;
+  margin: 55px;
+  font-size: 1em;
+  background: none;
+  color: #66fcf1;
+  border-color: #66fcf1;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.resume-back::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #66fcf1;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.resume-back:hover {
+  color: black;
+}
+
+.resume-back:hover::before {
+  width: 100%;
+}
+
+.resume-navigation {
+  height: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+  .resume-wrapper {
+    margin-bottom: 80px;
+    flex-direction: column-reverse;
+    width: 400px;
+  }
+  .resume-navigation {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #1f2833;
+    z-index: 10;
+    bottom: 0;
+  }
+  .resume-back {
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    margin: 0;
+    z-index: 11;
+  }
+
+  .resume-left {
+    width: 400px;
+  }
+
+  .resume-main {
+    width: 400px;
+  }
+}

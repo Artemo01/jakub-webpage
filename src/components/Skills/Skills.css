@@ -1,0 +1,35 @@
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  margin-top: 40vh;
+}
+
+.skills-header {
+  font-size: 3rem;
+  color: #66fcf1;
+  margin: 0;
+}
+
+.skills-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 790px) {
+  .skills-container {
+    grid-template-columns: 45% 45%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .skills-container {
+    grid-template-columns: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  margin-top: 40vh;
+}
+
+.portfolio-header {
+  font-size: 3rem;
+  color: #66fcf1;
+  margin: 0;
+}
+
+@media screen and (max-width: 520px) {
+  .portfolio-wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .portfolio-wrapper {
+    width: 80%;
+  }
+}

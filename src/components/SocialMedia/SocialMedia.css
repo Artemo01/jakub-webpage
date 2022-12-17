@@ -1,0 +1,35 @@
+.social-wrapper {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.social-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.social-item {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.social-item:hover {
+  color: #66fcf1;
+}
+
+.social-stand {
+  width: 1px;
+  height: 100px;
+  background-color: white;
+}
+
+@media screen and (max-width: 520px) {
+  .social-wrapper {
+    visibility: hidden;
+  }
+}
