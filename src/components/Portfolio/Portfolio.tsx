@@ -12,7 +12,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: '2048',
-      text: '2048 is a puzzle game whose goal is to move and connect the blocks appearing on the board in such a way as to create a block with the number 2048. I wrote the project using React and TypeScript. The goal of the project is to write a self-generating 4x4 board based on a matrix and to write a fully functioning logic that responds to work the game.',
+      text: '2048 is a puzzle game whose goal is to move and connect the blocks appearing on the board so as to create a block with the number 2048. I wrote the project using React and TypeScript. The goal of the project is to write a self-generating 4x4 board based on a matrix and to write logic making the game work.',
       image: photo_2048,
       link: 'https://github.com/Artemo01/2048/tree/main/src',
     },
@@ -24,7 +24,7 @@ const Portfolio = () => {
     },
     {
       title: 'Weather app',
-      text: 'The weather app was written in React with TypeScript. The app uses the Fetch API which makes it very easy to send HTTP requests using JavaScript Promises. I use the Weather API to get the current weather',
+      text: 'The weather app was written in React with TypeScript. The app uses the Fetch API which makes it very easy to send HTTP requests using JavaScript Promises. I use the Weather API to get the weather forecast.',
       image: photo_weather,
       link: 'https://github.com/Artemo01/weather-app/tree/main/src',
     },

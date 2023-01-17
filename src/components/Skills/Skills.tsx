@@ -8,7 +8,14 @@ import {
   FaPython,
   FaGitAlt,
 } from 'react-icons/fa';
-import { SiTypescript, SiCplusplus, SiMysql } from 'react-icons/si';
+import {
+  SiTypescript,
+  SiCplusplus,
+  SiMysql,
+  SiFlutter,
+  SiDart,
+  SiCsharp,
+} from 'react-icons/si';
 
 import './Skills.css';
 
@@ -20,8 +27,11 @@ const Skills = () => {
     { language: 'TypeScript', icon: <SiTypescript /> },
     { language: 'React', icon: <FaReact /> },
     { language: 'Python', icon: <FaPython /> },
+    { language: 'Flutter', icon: <SiFlutter /> },
+    { language: 'Dart', icon: <SiDart /> },
+    { language: 'C#', icon: <SiCsharp /> },
     { language: 'C++', icon: <SiCplusplus /> },
-    { language: 'SQL', icon: <SiMysql /> },
+    { language: 'MySQL', icon: <SiMysql /> },
     { language: 'Git', icon: <FaGitAlt /> },
   ];
   return (

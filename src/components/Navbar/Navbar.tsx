@@ -24,7 +24,7 @@ const Navbar = ({ onResume }: INavBar) => {
         to="Skills"
         spy={true}
         smooth={true}
-        offset={-300}
+        offset={-200}
         duration={500}
       >
         <button className="navbar-button">My Skills</button>
